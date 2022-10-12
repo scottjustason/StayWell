@@ -13,10 +13,10 @@ body {
   }
   
   #logo-img {
-    background: url('../images/restaurant-logo_large.png') no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #CCC;
   }
   
   .navbar-brand {
